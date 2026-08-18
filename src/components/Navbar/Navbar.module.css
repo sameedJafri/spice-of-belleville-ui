@@ -19,6 +19,33 @@
     font-size: 18px;
 }
 
+.navLinks li {
+    position: relative;
+}
+
+.navLinks li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -4px;
+    height: 2px;
+    background: #9C1F2B;
+    transition: right 0.3s;
+}
+
+.navLinks li:hover::after {
+    right: 0;
+}
+
+.navLinks a.active {
+    color: #9C1F2B;
+}
+
+.navLinks li:has(a.active)::after {
+    right: 0;
+}
+
 .navRight {
     display: flex;
     align-items: center;
@@ -33,6 +60,11 @@
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover {
+    background: #FBF6F1
 }
 
 .cart {
