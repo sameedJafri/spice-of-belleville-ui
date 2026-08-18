@@ -1,0 +1,60 @@
+.header {
+    height: 34vh;
+    margin: 34px auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../../assets/hero.png') no-repeat center;
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+}
+
+.headerContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #E6E3DF;
+}
+
+.headerContent h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #E6E3DF;
+}
+
+.headerSearchbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 20px auto 0;
+}
+
+.headerSearchbar input {
+    width: 100%;
+    height: 3rem;
+    padding: 10px 100px 10px 10px;
+    border: 2px solid #9C1F2B;
+    border-radius: 8px;
+    outline: none;
+}
+
+.headerSearchbar button {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 14px;
+    height: calc(3rem - 10px);
+    border: none;
+    background-color: #9C1F2B;
+    color: #E6E3DF;
+    border-radius: 4px;
+    cursor: pointer;
+}
