@@ -1,17 +1,31 @@
 .browseMenu {
     display: flex;
+    flex-direction: column;
+}
+
+.browseMenuHeader {
+    display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .browseMenu h2 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    white-space: nowrap;
     color: #251A18;
 }
 
 .browseMenuBorder {
-    width: 70%;
-    margin-left: auto;
+    flex: 1;
     height: 2px;
     background-color: #ccc;
+}
+
+.browseMenuItemList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
