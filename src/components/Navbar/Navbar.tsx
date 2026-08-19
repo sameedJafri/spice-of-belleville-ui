@@ -41,13 +41,12 @@ const Navbar: React.FC = () => {
           ))}
         </ul>
         <div className={styles.navRight}>
-          {/* add search image with next/image and link to search page */}
           <div className={styles.cart}>
             <Image
               src={cart}
               alt="cart"
-              width={20}
-              height={20}
+              width={30}
+              height={30}
             />
             <div className={styles.dot}></div>
           </div>

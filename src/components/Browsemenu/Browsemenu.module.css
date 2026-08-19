@@ -1,0 +1,16 @@
+.browseMenu {
+    display: flex;
+    align-items: center;
+}
+
+.browseMenu h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.browseMenuBorder {
+    width: 70%;
+    margin-left: auto;
+    height: 2px;
+    background-color: #ccc;
+}

@@ -2,8 +2,6 @@
 
 import React from "react";
 import styles from "./Header.module.css";
-import Image from "next/image";
-import logo from "@/assets/logo.png";
 
 const Header: React.FC = () => {
 
