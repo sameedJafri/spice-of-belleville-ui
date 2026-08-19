@@ -17,6 +17,7 @@
     gap: 20px;
     color: #251A18;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .navLinks li {
@@ -55,6 +56,7 @@
 .navbar button {
     background: transparent;
     font-size: 16px;
+    font-weight: 500;
     color: #251A18;
     border: 1px solid #9C1F2B;
     padding: 10px 30px;
@@ -64,7 +66,8 @@
 }
 
 .navbar button:hover {
-    background: #FBF6F1
+    background: #9C1F2B;
+    color: #E6E3DF;
 }
 
 .cart {
