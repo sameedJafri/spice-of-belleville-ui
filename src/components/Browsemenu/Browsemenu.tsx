@@ -20,7 +20,7 @@ const Browsemenu: React.FC = () => {
 
     const categoryItems = categories.map((category) => (
         <div key={category.key} className={styles.categoryItem}>
-            <Image src={category.image} alt={category.key} width={200} height={200} />
+            <Image src={category.image} alt={category.key} width={300} height={300} />
             <h3>{category.key}</h3>
         </div>
     ));
@@ -34,6 +34,9 @@ const Browsemenu: React.FC = () => {
             </div>
             <div className={styles.browseMenuItemList}>
                 {categoryItems}
+            </div>
+            <div className={styles.browseMenuFooter}>
+                <button>View Full Menu</button>
             </div>
         </div >
     );
